@@ -26,8 +26,8 @@ CREATE TABLE ProductDescription (
 
 CREATE TABLE Logs (
     ID INT,
-    Time TIMESTAMP,
-    LogRecord VARCHAR(50),
+    Timestamp TIMESTAMP,
+    Message VARCHAR(50),
     PRIMARY KEY(ID)
 ) ENGINE=BLACKHOLE;
 
